@@ -1,0 +1,27 @@
+{% extends "home/base.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+  <center>
+    <article class="mt-5 border border-primary rounded" style="width: 50%;">
+      <br>
+    <center>
+      <form class="" enctype="multipart/form-data" method="POST">
+        {% csrf_token %}
+        <fieldset style="width: 70%;">
+          <legend>
+            Kyquni
+          </legend>
+          {{form|crispy}}
+          <br>
+          <div class="">
+            <button class="btn btn-outline-info" type="submit" name="button">Shkruani</button>
+        </div>
+        </fieldset>
+        
+      </form>
+      </center>
+      <br>
+  </article>
+</center>
+
+{% endblock content%}

@@ -1,0 +1,29 @@
+{% extends "home/base.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+<style>
+        
+    label{
+        float: left;
+        color: blue;
+    }
+</style>
+
+<div style="margin-top: 2%;">
+   
+        <center>
+          <div style="width: 40%; background-color: lightblue;border-radius: 25px;padding:2% 5% 0 5% ;">
+            <form method="POST" style="height: 15%;margin: auto;padding: 0;" >
+              {% csrf_token %}
+              <div class="form-group">
+                  {{form|crispy}}
+              <button type="submit" class="btn btn-success">Sign up</button>
+              </div>
+
+            </form>
+         
+          </div>
+        </center>
+      </div>
+
+{% endblock content %}

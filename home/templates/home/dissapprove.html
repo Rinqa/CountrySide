@@ -1,0 +1,11 @@
+{% extends "home/base.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+<h1>The information is deleted</h1>
+
+<a href="{% url 'unapproved' %}">
+    <button type="button" class="btn btn-outline-success">Go back</button>
+</a>
+
+{% endblock content %}

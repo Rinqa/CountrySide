@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <link href="Photo/text.png" rel="shortcut icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>CountrySide</title>
+    <style>
+            body, html {
+              height: 100%;
+              margin: 0;
+            }
+            
+            .bg {
+              /* The image used */
+              background-image: url("Photo/fimga.png");
+            
+              /* Full height */
+              height: 100%; 
+            
+              /* Center and scale the image nicely */
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            </style>
+  </head>
+  <body>
+    <!--  -->
+    
+        <nav  style="background-color: #274832;" class="navbar navbar-expand-lg navbar-dark " >
+          <a class="navbar-brand" style="width:9%;height:9%;"><img src="photo\logo1.png" style="width:100%;height:100%;"></img></a>
+                <div class="collapse navbar-collapse" id="navbarColor02" ></div>
+                
+                <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active">Europe <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" >Australia <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active">S.America <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" >N.America <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" >Asia <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" >Africa<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" >Antarctica<span class="sr-only">(current)</span></a>
+                  </div>
+          
+            </div>
+      </nav>
+
+
+
+<div style="background-color:#D3D3D3; width:100%; height:100%; ">
+      
+
+
+
+      <div style="margin:50px"> 
+
+            <img src="Photo/download.png" alt="Flamuri"/>
+            <p1 style="position: absolute;
+                      bottom: 8px;
+                      left:150px;
+                      top: 350px;
+                      width: 100%;
+                      "> Albania </p1>
+
+            </div>
+
+
+
+            <div class="row"  style="margin-left: 350px;
+                        margin-top: -237px; "> 
+
+                  <img src="Photo/austria.png" alt="Flamuri2" />
+                  <p1 style="position: absolute;
+                             top:350px;
+                             left:470px;"> Austria </p1>
+
+            </div>
+
+
+
+
+          <div class="row"  style="margin-left: 660px;
+                      margin-top: -183px; "> 
+
+                <img src="Photo/Armenia.png" alt="Flamuri3" style="width:275px; height:183px;" />
+                <p1 style="position: absolute;
+                           top:350px;
+                           left:770px;"> Armenia </p1>
+
+
+
+
+                     <div class="row"  style="margin-left: 315px; 
+                margin-top: -183px;
+                margin-right: 300px; "> 
+
+          <img src="Photo/Andorra.png" alt="Flamuri4" style="width:275px; height:183px;" />
+          <p1 style="position: absolute;
+                     top:350px;
+                     left:1080px;"> Andorra </p1>
+
+    
+
+
+              <div class="row"  style="margin-left: 315px; 
+                          margin-top: -183px;
+                          margin-right: 50px; "> 
+
+                    <img src="Photo/Azerbaijan.png" alt="Flamuri5" style="width:275px; height:183px;" />
+                    <p1 style="position: absolute;
+                               top:350px;
+                               left:1400px;"> Azerbaijan </p1>
+
+
+            <div style="margin-top:250px;
+                        margin-left:-1520px;"> 
+
+                    <img src="Photo/Belgium.png" alt="Flamuri6" style="width:275px; height:183px;"/>
+                    <p1 style="position: absolute;
+                              bottom: 8px;
+                              left:150px;
+                              top: 600px;
+                              width: 100%;
+                              "> Blegium </p1>
+
+                        </div>
+
+
+
+                     <div style="margin-top:250px;
+                        margin-left:30px;"> 
+
+                    <img src="Photo/Bulgaria.png" alt="Flamuri7" style="width:275px; height:183px;"/>
+                    <p1 style="position: absolute;
+                              bottom: 8px;
+                              left:453px;
+                              top: 600px;
+                              width: 100%;
+                              "> Bulgaria </p1>
+
+                        </div>
+
+
+
+
+                <div style="margin-top:250px;
+                        margin-left:35px;"> 
+
+                    <img src="Photo/Bosnia.png" alt="Flamuri8" style="width:275px; height:183px;"/>
+                    <p1 style="position: absolute;
+                              bottom: 8px;
+                              left:716px;
+                              top: 600px;
+                              width: 100%;
+                              "> Bosnia and Herzegovina </p1>
+
+                        </div>
+
+
+
+
+
+                  <div style="margin-top:250px;
+                                          margin-left:41px;"> 
+
+                                      <img src="Photo/Belarus.png" alt="Flamuri9" style="width:275px; height:183px;"/>
+                                      <p1 style="position: absolute;
+                                                bottom: 8px;
+                                                left:1080px;
+                                                top: 600px;
+                                                width: 100%;
+                                                "> Belarus </p1>
+
+                                          </div>
+
+
+
+
+
+                                             <div style="margin-top:250px;
+                                          margin-left:41px;"> 
+
+                                      <img src="Photo/Croatia.png" alt="Flamuri10" style="width:275px; height:183px;"/>
+                                      <p1 style="position: absolute;
+                                                bottom: 8px;
+                                                left:1416px;
+                                                top: 600px;
+                                                width: 100%;
+                                                "> Croatia </p1>
+
+                                          </div>
+
+
+
+
+
+
+
+
+                                  <div style="margin-top:500px;
+                        margin-left:-1520px;"> 
+
+                    <img src="Photo/Cyprus.png" alt="Flamuri11" style="width:275px; height:183px;"/>
+                    <p1 style="position: absolute;
+                              bottom: 8px;
+                              left:150px;
+                              top: 850px;
+                              width: 100%;
+                              "> Cyprus </p1>
+
+                        </div>
+
+    
+
+
+         <div style="margin-top:500px;
+                        margin-left:30px;"> 
+
+                    <img src="Photo/Czech.png" alt="Flamuri11" style="width:275px; height:183px;"/>
+                    <p1 style="position: absolute;
+                              bottom: 8px;
+                              left:440px;
+                              top: 850px;
+                              width: 100%;
+                              "> Czech Republic </p1>
+
+                        </div>
+    
+
+
+         <div style="margin-top:500px;
+                        margin-left:33px;"> 
+
+                    <img src="Photo/Denmark.png" alt="Flamuri11" style="width:275px; height:183px;"/>
+                    <p1 style="position: absolute;
+                              bottom: 8px;
+                              left:750px;
+                              top: 850px;
+                              width: 100%;
+                              "> Denmark </p1>
+
+                        </div>
+
+
+
+
+
+
+                         <div style="margin-top:500px;
+                        margin-left:36px;"> 
+
+                    <img src="Photo/Estonia.png" alt="Flamuri11" style="width:275px; height:183px;"/>
+                    <p1 style="position: absolute;
+                              bottom: 8px;
+                              left:1075px;
+                              top: 850px;
+                              width: 100%;
+                              "> Estonia </p1>
+
+                        </div>
+
+
+
+
+                        <div style="margin-top:500px;
+                        margin-left:39px;"> 
+
+                    <img src="Photo/Finland.png" alt="Flamuri11" style="width:275px; height:183px;"/>
+                    <p1 style="position: absolute;
+                              bottom: 8px;
+                              left:1390px;
+                              top: 850px;
+                              width: 100%;
+                              "> Finland </p1>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

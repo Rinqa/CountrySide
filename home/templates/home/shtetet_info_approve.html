@@ -1,0 +1,39 @@
+{% extends "home/base.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+  <div class="container">
+    <div class="row">
+      {% for i in info %}
+      <div class="col-md-6" style="margin-top: 30px; padding:10px;">
+        <h2>{{i.IdState}}</h2>
+        <h3>{{i.IdCategorie}}</h3>
+        <h1>{{i.Title}}</h1>
+        <p>
+          {{i.Information}}
+        </p>
+        {% if i.Photo != "download.jpg" %}
+                    <div style="width: 80%;">
+                    <img src="{{i.Photo.url}}" style="max-width: 275px; max-height: 275px">
+                </div>
+                {% endif %}
+          <form method="POST">
+            {% csrf_token %}
+            <input type="hidden" name="emri" value="True">
+            <a href="{% url 'shtetet-info-approve' i.id %}">
+              <button type="button" class="btn btn-outline-success">Aprovo</button>
+            </a>
+            <a href="{% url 'shtetet-info-dissapprove' i.id %}">
+              <button type="button" class="btn btn-outline-danger">Delete</button>
+            </a>
+          </form>
+       
+
+      </div>
+      {% endfor %}    
+    </div>
+
+  </div>
+
+
+{% endblock content %}

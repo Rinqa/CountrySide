@@ -1,0 +1,31 @@
+{% extends "home/base.html" %}
+{% block content %}
+<a href="{% url 'shtetet' kontinenti.id %}" class="btn btn-primary" style="margin-left: 90%;font-size: 12px;">Sort by Name</a>
+        <div class="container">
+        	<div class="row">
+            {% for obj in sorted %}
+        		<div class="col-md-3 col-sm-5">
+        			
+        			
+			      	<div class="card" style='margin-top: 8%;background-color: lightblue;margin-bottom: 8%;'>
+					  <img src="{{ obj.Flag.url }}" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title">{{ obj.Name }}</h5>
+						    <p class="card-title">Likes: {{ obj.total_likes }} | Dislikes: {{ obj.total_dislikes }}</p>
+						    <a href="{% url 'shtetet-info' obj.id %}" class="btn btn-primary" style="margin-left: 28%;margin-bottom: -5%;">More Info</a>
+			  			   </div>
+
+			  			   <form action="{% url 'likes' obj.id %}" method="POST">
+			  			   	{% csrf_token %}
+			  			   	<input type="submit" name="action" value="Like" class="btn btn-success" style="margin-left: 25%;margin-bottom: 3%;">
+			  			   	<input type="submit" name="action" value="Dislike" formaction="{% url 'dislikes' obj.id %}" class="btn btn-danger" style="margin-bottom: 3%;">
+			  			   </form>
+			  			   
+			  		</div>
+			  		
+			  	</div>
+
+			  	{% endfor %}
+
+	    </div>
+{% endblock content %}

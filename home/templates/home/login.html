@@ -1,0 +1,23 @@
+{% extends "home/base.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+ <div>
+        <center style="margin-top: 15%;">
+         <article style="background-color: lightblue;width: 40%;border-radius: 25px;">
+            <form style="height: 15%;width: 70%;" method="POST" >
+              {% csrf_token %}
+              <div class="form-group"><br>
+                
+                  {{form|crispy}}
+                  <button type="submit" class="btn btn-primary" >Log In</button><a>  or  </a> 
+                  <small><a href="{% url 'sign-up' %}" >Sing Up</a></small></form><br>
+              
+              </div>
+            
+              
+            </form>
+         </article>
+        </center>
+      </div>
+
+{% endblock content %}
